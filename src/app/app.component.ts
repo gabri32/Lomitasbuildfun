@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
