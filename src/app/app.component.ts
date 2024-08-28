@@ -2,6 +2,7 @@ import { Directive,Component, OnInit,ElementRef, Renderer2,HostListener} from '@
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
@@ -91,5 +92,6 @@ export class AppComponent implements OnInit {
 form2(item:number){
   console.log("form2");
 }
-}
 
+
+}
