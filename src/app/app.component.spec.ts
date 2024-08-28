@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'club-lomitas' title`, () => {
+  it(`should have the 'lomitas' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('club-lomitas');
+    expect(app.title).toEqual('lomitas');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, club-lomitas');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, lomitas');
   });
 });
